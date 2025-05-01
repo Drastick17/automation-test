@@ -2,7 +2,7 @@ name: CI/CD - Automatización de Pruebas Spring Boot
 
 on:
   push:
-    branches: [ master ]  # Se ejecuta al hacer push a la rama master
+    branches: [ main ]  # Se ejecuta al hacer push a la rama master
 
 jobs:
   build:
